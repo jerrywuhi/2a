@@ -10,6 +10,19 @@
 		h2 {color:#33ff33; font-size:40px;}
 	</style>
 
+	<script>
+		function change1() {
+  			document.getElementById("pic").src = "mountain.jpg";
+  			document.getElementById("h2text").innerText = "靜宜資管";
+		}
+
+		function change2() {
+  			document.getElementById("pic").src = "cliff.jpg";
+  			document.getElementById("h2text").innerText = "jerrywu";
+		}
+	</script>
+
+
 </head>
 <body>
 	
@@ -18,7 +31,7 @@
     <table width="70%">
 		<tr>
 			<td>
-				<img src="cliff.jpg" width="110%"></img>
+				<img src="cliff.jpg" width="110%"id="pic" onmouseover="change1()" onmouseout="change2()"></img>
 			</td>
 
 			<td>
@@ -39,7 +52,9 @@
     個人網頁<br>
     fb:https:<a href="//www.facebook.com/">https://www.facebook.com/</a><br>
     Tel:<br>
-    E-mail: <br>
+    E-mail: <a href="mailto:wu0952686160@gmail.com">tcyang@pu.edu.tw</a><br>
+</body>
+
 
     </td>
 
